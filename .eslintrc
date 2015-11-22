@@ -1,0 +1,22 @@
+# -*- coding:utf-8-unix; mode:yaml; -*-
+
+parser: babel-eslint
+
+extends:
+  - 'defaults/configurations/walmart/es6-node'
+
+rules:
+  func-style: [2, "declaration"]
+  space-before-function-paren: [2, "never"]
+  generator-star-spacing: 0
+  no-use-before-define: [2, nofunc]
+  quotes: [2, "single"]
+  arrow-parens: 0
+  no-console: 0
+  key-pacing: 0
+  no-multi-spaces: 0
+  no-use-before-define: 0
+  key-spacing: 0
+  yoda: 0
+  # Change walmart's rule Because of the error with emacs flycheck
+  filenames/filenames: [2, "^[a-z0-9\\-\\._]+$"]

@@ -1,0 +1,25 @@
+{
+  "name": "ansi-pixels-examples",
+  "version": "1.0.0",
+  "description": "Examples on ANSI Pixels",
+  "scripts": {
+    "build": "babel-node build.js",
+    "lint":  "eslint build.js"
+  },
+  "author": "Keiichiro Ui",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "babel-eslint": "^4.1.5",
+    "bluebird": "^3.0.5",
+    "byline": "^4.2.1",
+    "escape-html": "^1.0.3",
+    "eslint": "^1.10.1",
+    "eslint-config-defaults": "^7.1.1",
+    "eslint-plugin-filenames": "^0.1.2",
+    "mkdirp": "^0.5.1",
+    "node-png": "^0.4.3",
+    "through2": "^2.0.0"
+  }
+}
